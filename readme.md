@@ -1,7 +1,7 @@
 # Proyecto Front-End JS Talento Tech 26126
 
 Consiste en el desarrollo Front-End de un E-Commerce. En este caso elegí un pet-shop.
-Podes encontrar el proyecto en [mi pagina de GitHub Pages](https://nacho-js.github.io/)
+Podes encontrar el proyecto en [mi pagina de GitHub Pages](https://nacho-js.github.io/Talento-Tech-Front-End-JS/HTML/index.html)
 
 ## Tecnologías Utilizadas
 
