@@ -1,0 +1,8 @@
+table,
+th,
+td {
+  width: 100%;
+  text-align: center;
+  background-color: goldenrod;
+  border: 2px solid black;
+}

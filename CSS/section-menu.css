@@ -1,0 +1,45 @@
+.section-menu {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: flex-start;
+  height: 40vh;
+}
+
+.section-menu details {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid black;
+  background-color: goldenrod;
+}
+
+.section-menu ul,
+.section-menu summary {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+.section-menu li {
+  width: 100%;
+  border-top: 1px solid black;
+  padding: 0;
+  margin: 0;
+}
+
+.section-menu li a {
+  display: block;
+  width: 100%;
+  font-style: inherit;
+  font-style: inherit;
+  text-decoration: inherit;
+  color: inherit;
+  padding: 0;
+  margin: 0;
+}

@@ -10,14 +10,16 @@
       href="https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Fira+Code:wght@300..700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/CSS/style.css" />
+    <link rel="stylesheet" href="/CSS/header.css" />
+    <link rel="stylesheet" href="/CSS/section-menu.css" />
+    <link rel="stylesheet" href="/CSS/table.css" />
   </head>
 
   <body>
     <header class="container">
       <span class="item--marca">
         <img src="/Images/logo.png" alt="Gato Atigrado y Perro Border Collie" />
-        <h1>Mundo Mascota</h1>
+        <h1><a href="/HTML/index.html">Mundo Mascota</a></h1>
       </span>
       <nav class="item--sub-pagina">
         <ul>
@@ -40,5 +42,62 @@
         </button>
       </form>
     </header>
+    <main>
+      <section class="section-menu">
+        <details>
+          <summary>Perros</summary>
+          <ul>
+            <li><a href="">Alimentos</a></li>
+            <li><a href="">Accesorios</a></li>
+            <li><a href="">Servicios</a></li>
+          </ul>
+        </details>
+        <details>
+          <summary>Gatos</summary>
+          <ul>
+            <li><a href="">Alimentos</a></li>
+            <li><a href="">Accesorios</a></li>
+          </ul>
+        </details>
+      </section>
+      <section>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Usuario</th>
+              <th>Puntaje</th>
+              <th>Experiencia</th>
+              <th>Recomendaciones</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Nacho</td>
+              <td>10</td>
+              <td>Muy bueno todo</td>
+              <td>Mas abrigos y ropa</td>
+            </tr>
+            <tr>
+              <td>Pepe</td>
+              <td>7</td>
+              <td>A veces no tienen el alimento</td>
+              <td>Mas proveedores</td>
+            </tr>
+            <tr>
+              <td>Juana</td>
+              <td>3</td>
+              <td>Una vez fui un feriado y estba cerrado</td>
+              <td>Actualizar el maps con el horario</td>
+            </tr>
+            <tr>
+              <td>Melina</td>
+              <td>8</td>
+              <td>Siempre tienen la comida que llevo</td>
+              <td>Mas juguetes</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
   </body>
 </html>
